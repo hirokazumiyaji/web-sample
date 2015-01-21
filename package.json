@@ -1,0 +1,15 @@
+{
+  "name": "react-sample",
+  "description": "react sample",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Hirokazu Miyaji <<hirokazu.miyaji@gmail.com>",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*"
+  },
+  "main": "app.js",
+  "devDependencies": {}
+}

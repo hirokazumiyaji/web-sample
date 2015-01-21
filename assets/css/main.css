@@ -1,0 +1,206 @@
+@charset "UTF-8";
+html, body, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  list-style: none;
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ","Meiryo","Osaka","ＭＳ Ｐゴシック","MS P Gothic",sans-serif;
+  font-size: 14px;
+  color: #000;
+  background: url(/images/bg_repeat.jpg) center top repeat-y #e1e1e1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 img,
+h2 img,
+h3 img,
+figure img {
+  display: block;
+}
+
+#site-wrapper #contents-wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+#site-wrapper #contents-wrapper #site-header {
+  width: 280px;
+  margin: 0 auto 16px;
+  padding-top: 30px;
+}
+
+#site-wrapper #contents-wrapper #contents #preregistration {
+  position: relative;
+  width: 904px;
+  height: 951px;
+  margin: 0 auto 72px;
+  background: url(/images/pre-registration_bg.jpg) no-repeat #fff;
+  padding-top: 47px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+#site-wrapper #contents-wrapper #contents #preregistration h2 {
+  width: 408px;
+  margin: 0 auto 32px;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #regist-container {
+  margin-bottom: 30px;
+  background: url(/images/pre-registration_visual.png) no-repeat;
+  background-position: 479px 5px;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #regist-container .img-text {
+  padding: 62px 0 0 224px;
+  margin: 0 0 0 0;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #regist-container .img-text2 {
+  padding: 10px 0 0 301px;
+  margin: 0 0 30px 0;
+  line-height: 1em;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #regist-container .img-text2 img {
+  margin-bottom: 4px;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #form-container .img-text3 {
+  margin: 0 auto;
+  padding: 20px 30px;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #form-container .img-text3 .subtext {
+  text-align: center;
+  color: #f00;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #form-container .exs-red {
+  margin-bottom: 0;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #form-container .exs-red .ex-red {
+  text-align: left;
+  font-size: 12px;
+  color: #f00;
+  line-height: 1.2em;
+  text-indent: -1em;
+  margin-left: 1em;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #form-container .text-center {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #form-container .text-center a {
+  text-decoration: underline;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #form-container .text-center a:hover {
+  text-decoration: none;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #form-container #register-form p {
+  text-align: center;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #form-container #register-form p#agreement_wrap {
+  margin-bottom: 25px;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #form-container #register-form p#email_wrap #email {
+  border: 1px solid #ccc;
+  background: #f0f0f0;
+  padding: 16px 0;
+  width: 458px;
+  text-align: center;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #form-container #register-form #submit_wrap {
+  text-align: center;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #form-container #register-form #submit_wrap li {
+  display: inline-block;
+  margin: 15px 13px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow: 0 0 15px rgba(229, 229, 229, 0.75), 0 0 15px rgba(229, 229, 229, 0.75), 0 0 15px rgba(229, 229, 229, 0.75);
+  -webkit-box-shadow: 0 0 15px rgba(229, 229, 229, 0.75), 0 0 15px rgba(229, 229, 229, 0.75), 0 0 15px rgba(229, 229, 229, 0.75);
+  box-shadow: 0 0 15px rgba(229, 229, 229, 0.75), 0 0 15px rgba(229, 229, 229, 0.75), 0 0 15px rgba(229, 229, 229, 0.75);
+}
+#site-wrapper #contents-wrapper #contents #preregistration #form-container #register-form #submit_wrap li input[type="submit"] {
+  display: block;
+  width: 215px;
+  height: 70px;
+  overflow: hidden;
+  text-indent: 9999em;
+  border: none;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #form-container #register-form #submit_wrap li input[type="submit"]#btn-gp {
+  background: url("http://placehold.jp/215x70.png") no-repeat;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #form-container #register-form #submit_wrap li input[type="submit"]#btn-gp:hover {
+  background: url("http://placehold.jp/215x70.png") no-repeat;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #form-container #register-form #submit_wrap li input[type="submit"]#btn-ios {
+  background: url("http://placehold.jp/215x70.png") no-repeat;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #form-container #register-form #submit_wrap li input[type="submit"]#btn-ios:hover {
+  background: url("http://placehold.jp/215x70.png") no-repeat;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #form-container #register-form .error {
+  color: #f00;
+  width: 460px;
+  margin: 0 auto 20px;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #form-container #register-form .exs {
+  width: 460px;
+  margin: 0 auto 30px;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #form-container #register-form .exs .ex {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 4px;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #form-container .beta-wrap {
+  text-align: center;
+}
+#site-wrapper #contents-wrapper #contents #preregistration #form-container .beta-wrap a {
+  display: inline-block;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow: 0 0 15px rgba(229, 229, 229, 0.75), 0 0 15px rgba(229, 229, 229, 0.75), 0 0 15px rgba(229, 229, 229, 0.75);
+  -webkit-box-shadow: 0 0 15px rgba(229, 229, 229, 0.75), 0 0 15px rgba(229, 229, 229, 0.75), 0 0 15px rgba(229, 229, 229, 0.75);
+  box-shadow: 0 0 15px rgba(229, 229, 229, 0.75), 0 0 15px rgba(229, 229, 229, 0.75), 0 0 15px rgba(229, 229, 229, 0.75);
+}
+#site-wrapper #contents-wrapper #contents #preregistration #form-container .beta-wrap a img {
+  display: block;
+}
+#site-wrapper #contents-wrapper #contents #preregistration .regist_mini_chara {
+  width: 112px;
+  height: 168px;
+  position: absolute;
+  bottom: -22px;
+  right: -12px;
+}
